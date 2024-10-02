@@ -1,6 +1,6 @@
 {
-  "name": "@strapi-community/strapi-provider-upload-google-cloud-storage",
-  "version": "4.10.6",
+  "name": "udx/strapi-provider-upload-google-cloud-storage",
+  "version": "5.0.0",
   "description": "(Non-official) Google Cloud Storage Provider for Strapi Upload",
   "keywords": [
     "strapi",
@@ -10,19 +10,19 @@
     "storage",
     "gcp"
   ],
-  "homepage": "https://github.com/strapi-community/strapi-provider-upload-google-cloud-storage#readme",
+  "homepage": "https://github.com/udx/strapi-provider-upload-google-cloud-storage#readme",
   "bugs": {
-    "url": "https://github.com/strapi-community/strapi-provider-upload-google-cloud-storage/issues"
+    "url": "https://github.com/udx/strapi-provider-upload-google-cloud-storage/issues"
   },
   "license": "MIT",
   "author": {
-    "name": "Vanessa Pasque",
-    "email": "lith@amykron.com"
+    "name": "Volodymyr Palant",
+    "email": "vladimir@udx.io"
   },
   "maintainers": [
     {
-      "name": "Vanessa Pasque",
-      "email": "lith@amykron.com"
+      "name": "Volodymyr Palant",
+      "email": "vladimir@udx.io"
     }
   ],
   "main": "./lib",
@@ -36,27 +36,27 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/strapi-community/strapi-provider-upload-google-cloud-storage.git"
+    "url": "git+https://github.com/udx/strapi-provider-upload-google-cloud-storage.git"
   },
   "dependencies": {
-    "@google-cloud/storage": "^6.10.0",
+    "@google-cloud/storage": "^7.13.0",
     "slugify": "^1.6.6"
   },
   "devDependencies": {
     "codecov": "^3.8.3",
-    "eslint": "^8.40.0",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-import": "^2.27.5",
+    "eslint": "^9.11.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.30.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "mocha": "^10.2.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "mocha": "^10.7.3",
     "mock-require": "^3.0.3",
-    "nyc": "^15.1.0",
-    "prettier": "^2.8.8"
+    "nyc": "^17.1.0",
+    "prettier": "^3.3.3"
   },
   "engines": {
-    "node": ">=18.0.0 <=20.x.x",
-    "npm": ">=8"
+    "node": ">=18.0.0",
+    "npm": ">=10"
   },
   "strapi": {
     "isProvider": true
