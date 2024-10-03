@@ -12,12 +12,12 @@ Install the package from your app root directory
 
 with `npm`
 ```
-npm install @strapi-community/strapi-provider-upload-google-cloud-storage --save
+npm install @udx/strapi-provider-upload-google-cloud-storage --save
 ```
 
 or `yarn`
 ```
-yarn add @strapi-community/strapi-provider-upload-google-cloud-storage
+yarn add @udx/strapi-provider-upload-google-cloud-storage
 ```
 
 ## <a name="create-bucket"></a> Create your Bucket on Google Cloud Storage
@@ -67,7 +67,7 @@ Edit `./config/plugins.js`
 module.exports = {
     upload: {
       config: {
-        provider: '@strapi-community/strapi-provider-upload-google-cloud-storage',
+        provider: '@udx/strapi-provider-upload-google-cloud-storage',
         providerOptions: {
             bucketName: '#bucketName#',
             publicFiles: false,
@@ -92,7 +92,7 @@ Edit `./config/plugins.js`
 module.exports = {
     upload: {
       config: {
-        provider: '@strapi-community/strapi-provider-upload-google-cloud-storage',
+        provider: '@udx/strapi-provider-upload-google-cloud-storage',
         providerOptions: {
             bucketName: '#bucketName#',
             publicFiles: true,
@@ -119,7 +119,7 @@ This file, under `config/env/{env}/` will be overriding default configuration pr
 module.exports = ({ env }) => ({
     upload: {
       config: {
-        provider: '@strapi-community/strapi-provider-upload-google-cloud-storage',
+        provider: '@udx/strapi-provider-upload-google-cloud-storage',
         providerOptions: {
           serviceAccount: env.json('GCS_SERVICE_ACCOUNT'),
           bucketName: env('GCS_BUCKET_NAME'),
@@ -317,7 +317,7 @@ Follow our [migration guide](./MIGRATION_GUIDE.md).
 
 ## Community support
 
-- [GitHub](https://github.com/strapi-community/strapi-provider-upload-google-cloud-storage) (Bug reports, contributions)
+- [GitHub](https://github.com/udx/strapi-provider-upload-google-cloud-storage) (Bug reports, contributions)
   
 You can also used official support platform of Strapi, and search `@Lith` (maintainer) 
 
